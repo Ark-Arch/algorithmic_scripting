@@ -1,0 +1,23 @@
+load balancers
+https://chatgpt.com/c/fb714174-5752-4840-aa18-aba570dece98
+what?
+a device or software that distributes network or application traffic across multiple servers.
+it ensures that no single server becomes overwhelmed.
+it optimizes resource use
+it maximizes throughput (i.e. the amount of data or no. of transactions processeed by a system within a given time frame.)
+it minimizes response time
+it ensures high availability
+
+types
+- hardware
+- software like ngnix
+- cloud-base like amazon ELB
+
+LB algorithms
+- round robin - directs trafic to the servers sequentially
+    weighted round robin- servers are given weights, and traffic is distribution as per the servers' wait
+- IP/URL hash - directs traffic based on the ip idress
+- Least COnnections - directs traffic to server with list comprehension.
+
+
+SCALABILITY AND HIGH AVAILABILITY
