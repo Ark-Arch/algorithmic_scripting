@@ -3,7 +3,7 @@ def string_reversal(string, reversed_string = ''):
     if len(string) == 0:
         return reversed_string
     else:
-        reversed_string += string.pop()
+        reversed_string += string.pop() #O(1)
         return string_reversal(string, reversed_string)
 
 string = list('important')
