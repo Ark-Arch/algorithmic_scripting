@@ -1,0 +1,35 @@
+* i would like you to try memoization on palindrome.pyu
+
+there are certain recursive data structures
+- recursively defined data structure
+    json objects
+    trees
+    graphs
+    - things that allow me to basically focus on one tiny unit of the data structure at a time.
+
+
+One another advantage of recursion is that it helps with DATA STRUCTURES THAT ARE INHERENTLY recursive
+
+DATA STRUCTURES THAT ARE RECURSIVELY defined
+* A Data structure is said to be inherently recursive 
+when they are naturally defined in terms of 
+smaller instances of themselves.
+* These data structures often rely on recursive algorithms 
+for efficient operations.
+Examples include:
+- Linked Lists
+- Trees
+- graphs
+- Stacks
+- Heaps
+- Fractals
+
+THESE DATA STRUCTURES ARE NOT ONLY DEFINED RECURSIVELY BUT ALSO 
+OFTEN REQUIRE RECURSIVE ALGORITHMS FOR TRAVERSAL, INSERTION, DELETION,
+AND OTHER OPERATIONS.
+
+
+**NOTE
+While Queues can be implemented using linked lists (which are recursive),
+the queue data structure itself is typically defined in a more iterative manner rather than recursively.
+

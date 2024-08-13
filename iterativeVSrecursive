@@ -1,0 +1,49 @@
+ITERATIVE VS RECURSIVE
+*When dealing with very large lists, recursive 
+solutions can lead to stack overflow errors for very large
+linked lists due to excessive recursive depth, whereas
+iterative solutions avoid this problem
+
+
+Space Complexity: 
+Recursive solutions use the call stack, 
+which can lead to high space complexity (O(n) 
+for a linked list of length n). 
+Iterative solutions, in contrast, 
+typically have constant space complexity (O(1)).
+
+Ease of Implementation: Some problems are more 
+naturally expressed recursively (e.g., 
+those involving backtracking), 
+while others are simpler to implement and understand 
+iteratively.
+
+Performance: 
+In some cases, recursion may lead to redundant calculations 
+or excessive stack use, while an iterative approach might be 
+more efficient.
+
+DIFFERENCES BETWEEN ITERATION AND RECURSION
+- Memory Usage: iteration uses O(1). recursion uses O(n)
+- Execution Flow: iteration is easier to trace and visualize. recursion is a bit harder cause of the need to understand the stack unwinding process.
+- Performance: Iterative is often faster in terms of runtime. Since there is  nt overhead from multiple function calles. Recursion has slower performance due to stack overhead, but can be cubbed using MEMOIZATION
+- Complexity: iterative is sometimes less elegant/less intutive when dealing with problems with a natural recursive structure. but recursion can be more elegant and simpler to write. especially when the problems are with a natural recursive structure. = e.g. tree traversals, divide-and-conquer algorithms.
+
+
+ITERATIVE
+PROS
+- more efficient in terms of space (no call stack overhead)
+- it avoids potential stack overflow issues
+- generally faster for large input sizes.
+CONS
+- may result in complex code, especially for problems with natural recursive structures.
+- sometimes less intuitive especially for problems like tree
+
+RECURSIVE
+PROS
+- elegant and concise for problems that naturally fit a recursive approach.
+- easier to understand and implement
+CONS
+- can lead to stack overflow if the recursion depth is too deep.
+- often less efficient due to function call overhead.
+- MIGHT SOMTIMES NEED TO OPTIMIZE IT USING MEMOIZATION
