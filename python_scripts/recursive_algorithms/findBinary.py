@@ -2,7 +2,7 @@ def findBinary(number):
 
     # base case
     if number == 0:
-        return '1'
+        return ''
     else:
         if number % 2 != 0:
             rem = '1'
@@ -12,4 +12,4 @@ def findBinary(number):
         return findBinary(number//2) + rem
 
 
-print(findBinary(13))
+print(findBinary(233)) # == 1 0 1
