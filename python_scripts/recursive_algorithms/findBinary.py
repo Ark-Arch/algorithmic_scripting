@@ -2,17 +2,10 @@
 def findBinary(number, track = False):
     # base case
     if (number == 0):
-        if track:
-            return ''
-        else:
-            return '0'
+        return '' if track else '0'
     else:
         track = True
-        if number % 2 != 0:
-            rem = '1'
-        elif number % 2 == 0:
-            rem = '0'
-            
+        rem = '1' if (number % 2 != 0) else '0'
         return findBinary(number//2, track) + rem
 
 
@@ -26,7 +19,7 @@ def findBin(number, result):
 
 
 ############ result testing #########
-number = 0
+number = 23
 if findBinary(number) == findBin(number, ''):
     print(findBinary(number))
 else:
