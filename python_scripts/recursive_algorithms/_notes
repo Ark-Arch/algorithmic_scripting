@@ -1,3 +1,9 @@
+NOTE THAT WITH RECURSION
+- backtracking technique is important to learn
+- memoization is important to learn as well
+
+- linked_list, trees, stacks
+- arrays_and_queues
 * i would like you to try memoization on palindrome.pyu
 
 there are certain recursive data structures
