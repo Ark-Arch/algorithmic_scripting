@@ -1,12 +1,14 @@
 algorithms that are commonly used!
-
+*more like common algorithm design patterns
+- recursion
 - sorting algorithms
 - searching algorithms
+- divide-and-conquer
 - dynamic programming
 - greedy algorithms
 - backtracking algorithms
 - graph algorithms - e.g. A* algorithm
-
+- invariants
 
 data structures that are commonly used!
 - arrays
