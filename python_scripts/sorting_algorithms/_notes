@@ -8,7 +8,9 @@ KEY_PHRASE: IT BUBBLES UP THE LARGEST ELEMENTS
 Selection sort divides the array into sorted and unsorted parts.
 it repeatedly selects the smallest (or largest) element from the unsorted parts
 and moves it to the sorted part.
+*the sorted part could be at the start of the array, while the unsorted would be at the back.
 
 Insertion sort builds a sorted array (or list) one element at a time
 it does this by comparing the current element to the sorted elements,
 and inserting it in its correct position.
+
