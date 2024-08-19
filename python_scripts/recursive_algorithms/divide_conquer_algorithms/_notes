@@ -1,0 +1,45 @@
+example algorithms
+- merge sort
+- quick sort
+- binary search 
+- fast fourier transform (FFT)
+- karatsuba algoithm for fast multiplication
+
+UNDERSTANDING DivideAndConquer
+1) Start with the basics: understand the concept
+    the design paradigm is such that a problem is divided into smaller subproblems of the same type, solved independently, and then combined to get the solution to the original problem.
+    There are Three Phases:
+    - Divide - split the problem into smaller subproblems
+    - Conquer - solve each subproblem (recursively, unless the problem size is small enough to be solved directly)
+    - Combine - merge the solutions of the subproblems to solve the original problem
+
+2) Study fundamental examples
+    *focus on the classicals. understand their recursive nature, the splitting process, and how results are merged
+    binary search 
+    merge sort
+    quick sort
+    *implement them from scratch
+
+3) Break Down the Recursive Process
+    *Understanding recursion is key to mastering divide and conquer.
+    Practice tracing recursive calls on paper.
+    -> Visuallize how a problem is broken down into smaller subproblms, and track how results are merged in the base cases as recursion unwinds.
+
+    * For each algorithm, draw the recursive tree!. this should help you see how the problem is split, solved, and merged
+
+4) Analyse the time complexity
+    learn how to use the Master Theorem
+
+5) Practice Problems
+    examples:
+    - solve "Find the Inversion Count" problem using merge sort
+    - perform matrix multiplication using the Strassen Algorithm
+
+6) Learn More of such algorithms
+    - karatsuba multiplication
+    - closest pair of points
+    - matrix multiplication using strassen
+
+7) Understand practical applications
+    - merge sort us used for external sorting. handles large dataset in memory
+    - binary search - core part of databases and search engines
