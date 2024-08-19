@@ -1,0 +1,14 @@
+Bubble sort is a simple comparison-based sorting algorithm.
+it repeatedly steps through the list, 
+compares adjacent elements,
+and swaps them if they are in the wrong order.
+*it bubbles through the list.
+KEY_PHRASE: IT BUBBLES UP THE LARGEST ELEMENTS
+
+Selection sort divides the array into sorted and unsorted parts.
+it repeatedly selects the smallest (or largest) element from the unsorted parts
+and moves it to the sorted part.
+
+Insertion sort builds a sorted array (or list) one element at a time
+it does this by comparing the current element to the sorted elements,
+and inserting it in its correct position.
