@@ -6,5 +6,6 @@ algorithms + data structures = PROGRAMS  ;)
 
 
 next?
+- check through time complexity of binary search algorithm
 - improving the binary search algorithm
 - check through the 2-pointer technique
