@@ -17,7 +17,7 @@ def bubble_sort(array, order="ascending"):
     return array
 
 
-array = [234,1,5,2,7,9,0,1,5,6,8,7,4,3]
-sorted_array = bubble_sort(array, "descending")
+array = [0, 1, 1, 2, 3, 4, 5, 5, 6, 7, 7, 8, 9, 234]
+sorted_array = bubble_sort(array, "ascending")
 
 print(sorted_array)

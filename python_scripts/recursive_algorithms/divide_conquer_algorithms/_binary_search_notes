@@ -1,0 +1,17 @@
+practical applications or variants that rely on the principles of binary seach.
+
+*these principles include:
+- halving the seach space
+- managing pointers
+- performing binary searches on a solution space
+
+1. finding an element in a sorted array
+2. seach insert position
+3. finding first or last occurrence
+4. finding peak element (unimodal search)
+5. square root calculation
+6. rotated sorted array search
+7. finding minimum or maximum in a rotated sorted array
+8. binary search on answer
+9. searching in infinite-sized arrays
+10. Kth smallest/Largest element
