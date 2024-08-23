@@ -1,0 +1,10 @@
+QUESTION
+Given an array of sorted integers,
+find two numbers such that they add up to a target number
+what does my input look like
+will the sum cause integer overflow
+
+How to find better solutions?
+-Find insights from simple solution or problem statement
+-Ask for a hint
+-Find algorithms based off of runtimes i intend improving too
