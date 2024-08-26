@@ -1,4 +1,6 @@
 # two point sum using the 2-pointer technique
+# time complexity = O(n)
+# space complexity = O(1)
 
 def two_sum(array, target_sum):
     left = 0
