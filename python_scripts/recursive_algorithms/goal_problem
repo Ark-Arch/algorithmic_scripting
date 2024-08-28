@@ -1,0 +1,35 @@
+Problem: Fibonacci Subsequence Sum
+Problem Description:
+
+Given an integer array arr of size n, your task is to find the maximum sum of a subsequence that forms a Fibonacci-like sequence. A subsequence is a sequence derived by deleting some or no elements from the array without changing the order of the remaining elements.
+
+A sequence is considered Fibonacci-like if the sequence satisfies the following conditions:
+
+It has at least three elements.
+For every consecutive triplet (a, b, c) in the sequence, it holds that a + b = c.
+
+Input:
+An integer n (1 ≤ n ≤ 10^5), representing the size of the array.
+An integer array arr of size n, where each element arr[i] is a positive integer (1 ≤ arr[i] ≤ 10^9).
+
+Output:
+An integer representing the maximum sum of the subsequence that forms a Fibonacci-like sequence. If no such subsequence exists, return 0.
+
+Input:
+n = 6
+arr = [2, 4, 3, 5, 7, 10]
+
+Output:
+22
+
+Explanation:
+The subsequence [2, 3, 5, 10] is Fibonacci-like as 2 + 3 = 5 and 3 + 5 = 10. The sum of this subsequence is 2 + 3 + 5 + 10 = 20, which is the maximum possible sum.
+
+
+Constraints:
+
+The subsequence must have at least three elements.
+You can assume there is at most one subsequence that provides the maximum sum.
+
+
+This problem combines the concepts of dynamic programming or memoization with the Fibonacci sequence, making it an interesting challenge for those familiar with DSA.
