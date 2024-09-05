@@ -1,0 +1,14 @@
+ADVANTAGES
+- dynamic data structure- it allocates needed memory while running
+- insertion and deletion of nodes is easy O(1)
+- No/Low memory waster
+
+DISADVANTAGES
+- greater memory usage (additional pointer)
+- no random access of elements (no index[i])
+- Accessing or Searching elements in a linked list is more time consuming. O(n)
+
+USES
+- it is used to implement stacks/queues
+- GPS navigation
+- music playlist
