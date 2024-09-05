@@ -1,0 +1,43 @@
+TL:TR
+small data set:                             LinkedList=BAD
+large dataset + lots of searching           LinkedList=BAD
+large dataset + lots of inserting/deleting  LinkedList=GOOD
+
+
+WHY LINKEDLISTS.
+- arrays and arrayLists are bad and troublesome for INSERTION and DELETING in a large set of data
+
+WHAT IS LINKED LISTS.
+linked list is made up of a long chain of nodes
+each node contains two information:
+1. some data that needs to be stored, and 
+2. the address to the next node. (the address also referred to as a pointer)
+
+they do not have an index the same way an array does. 
+but each node contains the address of the next node.
+therefore, these nodes are non-contigous - they can be anywhere in memory.
+
+terms:
+- head
+- tail
+- pointer
+
+the end of a linked list is reached when the address pointed to next is of a null address.
+
+INSERTING 
+this becomes easy with linkedlists, as there is no longer shifting of elements.
+
+
+WHERE ARE LINKEDLIST INFERIOR TO ARRAYS
+- they are bad at searching!!
+
+INSERTION and DELETION is of O(1)
+
+but SEARCHING in a linkedList is O(n)
+
+
+BENEFITS of a double linked list
+- i can traverse the list in any direction.
+
+DISADVANTAGES OF A DOUBLE LINKED LIST
+- it takes more memory.
