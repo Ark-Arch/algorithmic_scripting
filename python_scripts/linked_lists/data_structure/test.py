@@ -21,3 +21,14 @@ def print_linked_list(head):
     while(current != None):
         print(current.val)
         current = current.next
+
+# writing this recursively
+def recursively_print_linkedlist(current):
+    # base case
+    if current.next == None:
+        return f'{current.val} -> None'
+    else:
+        return f'{current.val} -> ' + recursively_print_linkedlist(current.next)
+
+head = node_a
+print(recursively_print_linkedlist(head))
