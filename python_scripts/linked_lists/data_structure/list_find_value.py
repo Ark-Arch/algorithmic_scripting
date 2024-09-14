@@ -16,6 +16,16 @@ def linked_list_find(head, target):
         current = current.next
     return False
 
+def recursive_linked_list_find(head, target):
+    # base case
+    if head.val == target:
+        return True
+    elif head.next == None:
+        return False
+    else:
+        return recursive_linked_list_find(head.next, target)
+
+
 node_a = Node('A')
 node_b = Node('B')
 node_c = Node('C')
@@ -30,4 +40,5 @@ node_d.next = node_e
 
 head = node_a
 
-print(linked_list_find(head, 'G'))
+print(recursive_linked_list_find(head, 'D'))
+#print(linked_list_find(head, 'C'))
