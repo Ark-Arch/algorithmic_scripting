@@ -19,6 +19,19 @@ def reverse_list(head):
     
     return head
 
+def reverse_list_in_place(head):
+    # 1 - 2 - 3 - 4 - 5 - 6
+
+    pointer = None
+    next_pointer = head
+
+    while(next_pointer != None):
+        temp = next_pointer.next
+        next_pointer.next = pointer
+        pointer = next_pointer
+        next_pointer = temp
+    return pointer
+
 node_a = Node('A')
 node_b = Node('B')
 node_c = Node('C')
@@ -33,8 +46,8 @@ node_d.next = node_e
 
 head = node_a
 
-
-new_head = reverse_list(head)
+#new_head = reverse_list(head)
+new_head = reverse_list_in_place(head)
 
 current = new_head
 while(current != None):
