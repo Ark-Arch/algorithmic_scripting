@@ -15,6 +15,17 @@ def get_node_value(head, index):
         current = current.next
     return 'Error: index limit reached'
 
+def recursive_get_node_value(head, index, count=0):
+    # base case
+    if head == None:
+        return 'Error: index limit reached'
+    elif index == count:
+        return head.val
+    else:
+        count += 1
+        return recursive_get_node_value(head.next, index, count)
+
+
 node_a = Node('A')
 node_b = Node('B')
 node_c = Node('C')
@@ -30,3 +41,4 @@ node_d.next = node_e
 head = node_a
 
 print(get_node_value(head, 5))
+print(recursive_get_node_value(head, 5))
