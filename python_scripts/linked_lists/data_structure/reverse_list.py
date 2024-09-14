@@ -21,16 +21,19 @@ def reverse_list(head):
 
 def reverse_list_in_place(head):
     # 1 - 2 - 3 - 4 - 5 - 6
+    
+    previous_node = None
+    current_node = head
 
-    pointer = None
-    next_pointer = head
+    while(current_node != None):
+        next_node = current_node.next
+        current_node.next = previous_node
+        previous_node = current_node
+        current_node = next_node
+    
+    return previous_node
 
-    while(next_pointer != None):
-        temp = next_pointer.next
-        next_pointer.next = pointer
-        pointer = next_pointer
-        next_pointer = temp
-    return pointer
+
 
 node_a = Node('A')
 node_b = Node('B')
